@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Posting</title>
+<style>
+  :root {
+    --bg: #f6f5f1; --panel: #ffffff; --ink: #16161a; --muted: #6b6b73; --line: #e4e2dc;
+    --accent: #0a66c2; --new: #fff6d6; --live: #18a957;
+    --c1: #3b5bdb; --c2: #0c8f6b; --c3: #b5503a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111114; --panel:#1a1a1f; --ink:#ececef; --muted:#9a9aa3; --line:#2a2a31; --new:#2d2816; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: var(--bg);
+           display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+           padding: 20px 28px 16px; border-bottom: 1px solid var(--line); }
+  h1 { margin: 0; font-size: 26px; letter-spacing: -0.02em; font-weight: 700; }
+  .status { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 12.5px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--live);
+         box-shadow: 0 0 0 0 rgba(24,169,87,.5); animation: pulse 2s infinite; }
+  .dot.checking { background: #e0a100; }
+  .dot.error { background: #d64545; animation: none; }
+  @keyframes pulse { 70% { box-shadow: 0 0 0 7px rgba(24,169,87,0); } 100% { box-shadow: 0 0 0 0 rgba(24,169,87,0); } }
+  .controls { margin-left: auto; display: flex; gap: 10px; align-items: center; }
+  .seg { display: flex; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 2px; }
+  .seg button { border: 0; background: none; color: var(--muted); padding: 6px 12px; border-radius: 6px;
+                font: inherit; font-size: 13px; cursor: pointer; }
+  .seg button.on { background: var(--ink); color: var(--bg); }
+  input[type=search] { font: inherit; font-size: 13px; padding: 7px 11px; width: 200px; color: var(--ink);
+                       background: var(--panel); border: 1px solid var(--line); border-radius: 8px; outline: none; }
+  input[type=search]:focus { border-color: var(--accent); }
+  .err { width: 100%; color: #d64545; font-size: 12px; }
+
+  main { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; padding: 20px 28px 40px; }
+  .catseg { display: none; }
+  @media (max-width: 900px) {
+    header { position: static; padding: 16px 16px 12px; gap: 10px; }
+    .controls { margin-left: 0; width: 100%; flex-direction: column; align-items: stretch; }
+    .seg { overflow-x: auto; }
+    .seg button { flex: 1; white-space: nowrap; padding: 7px 8px; }
+    input[type=search] { width: 100%; }
+    .catseg { display: flex; }
+    main { grid-template-columns: 1fr; padding: 12px 16px 32px; }
+    .col { max-height: none; }
+    .col:not(.active) { display: none; }
+  }
+  .col { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+         display: flex; flex-direction: column; max-height: calc(100vh - 120px); }
+  .col-head { display: flex; align-items: baseline; justify-content: space-between;
+              padding: 14px 16px 12px; border-bottom: 1px solid var(--line); border-top: 3px solid var(--cc); }
+  .col-head h2 { margin: 0; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
+  .count { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .list { overflow-y: auto; }
+  .day { position: sticky; top: 0; background: var(--panel); padding: 10px 16px 4px;
+         font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+  a.job { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 11px 16px;
+          border-bottom: 1px solid var(--line); color: inherit; text-decoration: none; transition: background .15s; }
+  a.job:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+  a.job.fresh { background: var(--new); }
+  .title { font-weight: 600; font-size: 14px; }
+  .meta { grid-column: 1; color: var(--muted); font-size: 12.5px; }
+  .company { grid-row: 1 / span 2; grid-column: 2; align-self: center; text-align: right;
+             display: flex; align-items: center; gap: 8px; max-width: 160px; }
+  .company span { font-size: 12.5px; font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .logo { width: 28px; height: 28px; border-radius: 6px; flex: none; background: var(--line);
+          display: grid; place-items: center; font-size: 12px; font-weight: 700; color: var(--muted);
+          object-fit: cover; }
+  .empty { padding: 28px 16px; color: var(--muted); font-size: 13px; text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Posting</h1>
+  <div class="status"><span class="dot" id="dot"></span><span id="statusText">Connecting…</span></div>
+  <div class="controls">
+    <div class="seg catseg" id="catSeg"></div>
+    <div class="seg" id="metroSeg"></div>
+    <input type="search" id="q" placeholder="Filter title or company">
+  </div>
+  <div class="err" id="err" hidden></div>
+</header>
+<main id="board"></main>
+
+<script>
+const COLORS = ["var(--c1)", "var(--c2)", "var(--c3)"];
+let data = null, metro = "all", query = "", activeCat = null;
+let seen = new Set();
+try { seen = new Set(JSON.parse(localStorage.getItem("posting-seen") || "[]")); } catch {}
+const firstLoad = seen.size === 0;
+
+const ago = iso => {
+  const s = (Date.now() - new Date(iso)) / 1000;
+  if (s < 60) return "just now";
+  if (s < 3600) return Math.floor(s / 60) + "m ago";
+  if (s < 86400) return Math.floor(s / 3600) + "h ago";
+  return Math.floor(s / 86400) + "d ago";
+};
+const dayLabel = iso => {
+  const d = new Date(iso), t = new Date();
+  const y = new Date(); y.setDate(t.getDate() - 1);
+  if (d.toDateString() === t.toDateString()) return "Today";
+  if (d.toDateString() === y.toDateString()) return "Yesterday";
+  return d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
+};
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+
+function renderMetros() {
+  const seg = document.getElementById("metroSeg");
+  const opts = [["all", "All"], ...Object.entries(data.metros)];
+  seg.innerHTML = opts.map(([k, v]) => `<button data-k="${k}" class="${k === metro ? "on" : ""}">${esc(v)}</button>`).join("");
+  seg.querySelectorAll("button").forEach(b => b.onclick = () => { metro = b.dataset.k; render(); });
+}
+
+function renderCats() {
+  const seg = document.getElementById("catSeg");
+  const short = { corpdev: "Corp Dev", stratfin: "Strat Fin", invassoc: "Inv Assoc" };
+  activeCat = activeCat || Object.keys(data.categories)[0];
+  seg.innerHTML = Object.entries(data.categories).map(([k, v]) =>
+    `<button data-k="${k}" class="${k === activeCat ? "on" : ""}">${esc(short[k] || v)}</button>`).join("");
+  seg.querySelectorAll("button").forEach(b => b.onclick = () => { activeCat = b.dataset.k; render(); });
+}
+
+function render() {
+  if (!data) return;
+  renderMetros(); renderCats();
+  const q = query.toLowerCase();
+  const board = document.getElementById("board");
+  board.innerHTML = Object.entries(data.categories).map(([cat, name], i) => {
+    const jobs = data.jobs.filter(j => j.category === cat
+      && (metro === "all" || j.metro === metro)
+      && (!q || (j.title + " " + j.company).toLowerCase().includes(q)));
+    let lastDay = null, rows = "";
+    for (const j of jobs) {
+      const day = dayLabel(j.first_seen);
+      if (day !== lastDay) { rows += `<div class="day">${day}</div>`; lastDay = day; }
+      const fresh = !firstLoad && !seen.has(j.id);
+      const logo = j.logo ? `<img class="logo" src="${esc(j.logo)}" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'logo',textContent:'${esc(j.company[0] || "?")}'}))">`
+                          : `<div class="logo">${esc((j.company || "?")[0])}</div>`;
+      rows += `<a class="job${fresh ? " fresh" : ""}" href="${esc(j.url)}" target="_blank" rel="noopener">
+        <div class="title">${esc(j.title)}</div>
+        <div class="company"><span title="${esc(j.company)}">${esc(j.company)}</span>${logo}</div>
+        <div class="meta">${esc(j.location || data.metros[j.metro])} · ${ago(j.first_seen)}</div>
+      </a>`;
+    }
+    return `<section class="col${cat === activeCat ? " active" : ""}" style="--cc:${COLORS[i % 3]}">
+      <div class="col-head"><h2>${esc(name)}</h2><span class="count">${jobs.length}</span></div>
+      <div class="list">${rows || `<div class="empty">${data.last_run ? "No postings yet" : "First check in progress…"}</div>`}</div>
+    </section>`;
+  }).join("");
+}
+
+function renderStatus() {
+  const dot = document.getElementById("dot"), txt = document.getElementById("statusText"), err = document.getElementById("err");
+  dot.className = "dot " + (data.status === "checking" ? "checking" : data.status === "error" ? "error" : "");
+  if (data.status === "checking") txt.textContent = "Checking LinkedIn…";
+  else if (data.last_run) {
+    const mins = data.next_run ? Math.max(0, Math.round((new Date(data.next_run) - Date.now()) / 60000)) : data.poll_minutes;
+    txt.textContent = `Live · checked ${ago(data.last_run)} · next ${mins > 0 ? "in " + mins + "m" : "any minute"} · ${data.jobs.length} jobs`;
+  } else txt.textContent = "Starting first check…";
+  err.hidden = !data.error; err.textContent = data.error ? "Some searches failed: " + data.error : "";
+}
+
+async function poll() {
+  try {
+    const r = await fetch("jobs.json?t=" + Date.now(), { cache: "no-store" });
+    data = await r.json();
+    renderStatus(); render();
+    // mark everything currently shown as seen after a short delay, so new ones stay highlighted this visit
+    setTimeout(() => {
+      data.jobs.forEach(j => seen.add(j.id));
+      try { localStorage.setItem("posting-seen", JSON.stringify([...seen].slice(-5000))); } catch {}
+    }, 4000);
+  } catch {
+    document.getElementById("statusText").textContent = "Can't load the job log right now — retrying…";
+    document.getElementById("dot").className = "dot error";
+  }
+}
+document.getElementById("q").oninput = e => { query = e.target.value; render(); };
+poll();
+setInterval(poll, 60000);
+</script>
+</body>
+</html>

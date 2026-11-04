@@ -1,0 +1,48 @@
+name: Check LinkedIn
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 min (GitHub often runs scheduled jobs a few minutes late)
+  workflow_dispatch:          # lets you hit "Run workflow" by hand
+
+permissions:
+  contents: write
+
+concurrency:
+  group: posting
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check LinkedIn for new postings
+        id: scrape
+        continue-on-error: true
+        run: python3 posting.py --once
+
+      - name: Save the updated log
+        run: |
+          git config user.name "posting-bot"
+          git config user.email "posting-bot@users.noreply.github.com"
+          git add jobs.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update job log"
+            git pull --rebase --quiet
+            git push
+          fi
+
+      - name: Flag a failed check
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "::error::Every LinkedIn search failed this run (likely rate-limited). It will retry on the next run."
+          exit 1

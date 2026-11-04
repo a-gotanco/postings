@@ -1,0 +1,18 @@
+{
+ "jobs": [],
+ "categories": {
+  "corpdev": "Corporate Development",
+  "stratfin": "Strategic Finance",
+  "invassoc": "Investment Associate"
+ },
+ "metros": {
+  "sf": "San Francisco",
+  "chi": "Chicago",
+  "nyc": "New York"
+ },
+ "last_run": null,
+ "next_run": null,
+ "status": "starting",
+ "error": null,
+ "poll_minutes": 15
+}
