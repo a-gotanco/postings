@@ -31,7 +31,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 # ----------------------------------------------------------------------------
 
 PORT = 8787
-POLL_MINUTES = 15
+POLL_MINUTES = 30
 PAGES_PER_QUERY = 2          # 25 results per page
 LOOKBACK = "r86400"          # only postings from the past 24h ("r3600" = past hour)
 KEEP_DAYS = 30               # drop jobs from the log after this many days
@@ -199,8 +199,8 @@ def run_once():
                         added += 1
                 if len(cards) < 10:
                     break
-                time.sleep(random.uniform(2, 4))
-            time.sleep(random.uniform(2, 4))
+                time.sleep(random.uniform(1, 2))
+            time.sleep(random.uniform(1, 2))
     with lock:
         state["last_run"] = now_iso()
         state["status"] = "live"

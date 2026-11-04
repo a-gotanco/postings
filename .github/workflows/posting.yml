@@ -2,7 +2,7 @@ name: Check LinkedIn
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 min (GitHub often runs scheduled jobs a few minutes late)
+    - cron: "7,37 * * * *"   # every 30 min, off the top of the hour (GitHub often runs scheduled jobs a few minutes late)
   workflow_dispatch:          # lets you hit "Run workflow" by hand
 
 permissions:
@@ -15,13 +15,9 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
 
       - name: Check LinkedIn for new postings
         id: scrape

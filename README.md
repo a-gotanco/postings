@@ -2,17 +2,17 @@
 
 A live log of new LinkedIn jobs for **Corporate Development**, **Strategic Finance** and **Investment Associate** roles in **San Francisco, Chicago and New York**.
 
-GitHub runs the check every 15 minutes for free and hosts the page, so it works on any device, even when your computer is off.
+GitHub runs the check every 30 minutes for free and hosts the page, so it works on any device, even when your computer is off.
 
 ## Where it lives
 
 - Page: **https://a-gotanco.github.io/postings/**
-- Schedule: `.github/workflows/posting.yml` (every 15 min; run it by hand from **Actions → Check LinkedIn → Run workflow**)
+- Schedule: `.github/workflows/posting.yml` (every 30 min; run it by hand from **Actions → Check LinkedIn → Run workflow**)
 - Data: `jobs.json`, which the workflow updates after each check
 
 ## Good to know
 
-- **Timing.** GitHub often starts scheduled runs late, so "every 15 minutes" can sometimes be 20 to 30.
+- **Timing.** GitHub often starts scheduled runs late, so "every 30 minutes" can sometimes be 20 to 30.
 - **Public page.** Anyone with the link can see the page. It only shows public job listings.
 - **If a check fails.** LinkedIn sometimes blocks requests from GitHub's servers. The run then shows a red ✗ in the Actions tab, GitHub emails you, and the next run tries again. If every run keeps failing, the fallback is to run it from your own computer (below).
 - **The log keeps 30 days of jobs** (`KEEP_DAYS` in posting.py).
@@ -30,4 +30,4 @@ To change how often it runs, edit the `cron` line in `.github/workflows/posting.
 ```
 python3 posting.py
 ```
-Then open http://localhost:8787. It checks every 15 minutes for as long as the Terminal window stays open.
+Then open http://localhost:8787. It checks every 30 minutes for as long as the Terminal window stays open.
