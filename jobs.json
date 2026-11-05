@@ -1,6 +1,97 @@
 {
  "jobs": [
   {
+   "id": "4485541102",
+   "title": "Real Estate Debt Investment Associate",
+   "company": "Long Ridge Partners",
+   "location": "New York City Metropolitan Area",
+   "posted": "2026-11-04",
+   "posted_label": "15 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/real-estate-debt-investment-associate-at-long-ridge-partners-4485541102",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFmq2B0T1WBvg/company-logo_100_100/B4EZaDHtCqHYAQ-/0/1745956557278/long_ridge_partners_logo?e=2147483647&v=beta&t=bK-ajYJDml4-ct543au9tWVc09zp4ZMNkPj43379wyA",
+   "category": "invassoc",
+   "metro": "nyc",
+   "first_seen": "2026-11-05T12:10:24+00:00"
+  },
+  {
+   "id": "4487573340",
+   "title": "Global Business Unit Strategic Finance and Operations - Digital Services",
+   "company": "HP",
+   "location": "Palo Alto, CA",
+   "posted": "2026-11-04",
+   "posted_label": "12 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/global-business-unit-strategic-finance-and-operations-digital-services-at-hp-4487573340",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=2147483647&v=beta&t=CkdW_qlJsnivIFSCyd5feJoXKhIdCpFl9I1hK55yfQU",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-05T12:10:00+00:00"
+  },
+  {
+   "id": "4486599006",
+   "title": "Director, Strategic Finance",
+   "company": "Rolejob",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-05",
+   "posted_label": "4 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/director-strategic-finance-at-rolejob-4486599006",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFs_XeyPazFUw/company-logo_100_100/B4DaGcI0j2K0AI-/0/1793620920771/rolejobb_logo?e=2147483647&v=beta&t=_X8s8vN7Y8je_fFliX-GNcT7h8BbWZDjeN2VwaXB3ic",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-05T12:09:59+00:00"
+  },
+  {
+   "id": "4421860366",
+   "title": "Strategic Finance Lead",
+   "company": "Frontera",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-05",
+   "posted_label": "45 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-lead-at-frontera-4421860366",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGA-M3R8GZ0iQ/company-logo_100_100/B56ZyBP3XbKAAQ-/0/1771694946112/fronterahealth_logo?e=2147483647&v=beta&t=fhcw8f3wF4wYu50kk1RfVlJvxqImY8Bg2h7hDZsU5gM",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-05T12:09:59+00:00"
+  },
+  {
+   "id": "4485594081",
+   "title": "Director, Strategic Finance",
+   "company": "Superhuman",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-05",
+   "posted_label": "7 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/director-strategic-finance-at-superhuman-4485594081",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQG4HcqozYIPQw/company-logo_100_100/B4DaCILX2nKoAI-/0/1788991078192/superhumanhq_logo?e=2147483647&v=beta&t=ahZoWMB3rH-cMvUOWtnEtLX5JHqHPv9gY0V_AEXdRLc",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-05T12:09:59+00:00"
+  },
+  {
+   "id": "4487584976",
+   "title": "Sr Manager, Corporate Development",
+   "company": "Rosendin",
+   "location": "San Jose, CA",
+   "posted": "2026-11-05",
+   "posted_label": "7 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/sr-manager-corporate-development-at-rosendin-4487584976",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQExaebHPQcgHg/company-logo_100_100/company-logo_100_100/0/1630649594695/rosendin_electric_logo?e=2147483647&v=beta&t=ZT0Ncf2SDraBlpr_wyinsjyvjtoRe4rIi8ZBi95DtM8",
+   "category": "corpdev",
+   "metro": "sf",
+   "first_seen": "2026-11-05T12:09:42+00:00"
+  },
+  {
+   "id": "4459568004",
+   "title": "Senior Director, Corporate Development",
+   "company": "WD",
+   "location": "San Jose, CA",
+   "posted": "2026-11-05",
+   "posted_label": "2 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-director-corporate-development-at-wd-4459568004",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEBjdOLY6zBKQ/company-logo_100_100/B56ZwcO_EgJoAU-/0/1770000216702/western_digital_logo?e=2147483647&v=beta&t=z0-s1tv1ejXc6Jh6HQvt2MwiZkMXqGYcyhpOmMNHXF0",
+   "category": "corpdev",
+   "metro": "sf",
+   "first_seen": "2026-11-05T12:09:42+00:00"
+  },
+  {
    "id": "4486381291",
    "title": "Investment Associate",
    "company": "Aries Global",
@@ -271,8 +362,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-05T03:41:31+00:00",
- "next_run": "2026-11-05T04:10:46+00:00",
+ "last_run": "2026-11-05T12:10:28+00:00",
+ "next_run": "2026-11-05T12:39:42+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
