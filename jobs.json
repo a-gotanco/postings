@@ -1,6 +1,58 @@
 {
  "jobs": [
   {
+   "id": "4486282683",
+   "title": "Senior Director, Strategic Finance & Enterprise Planning",
+   "company": "Oscar Health",
+   "location": "New York, NY",
+   "posted": "2026-11-06",
+   "posted_label": "2 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-director-strategic-finance-enterprise-planning-at-oscar-health-4486282683",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEme_7Xrp9Wyw/company-logo_100_100/B4DaCqDs2MIcAQ-/0/1789559492196/oscar_health_logo?e=2147483647&v=beta&t=FpgI0XL5LWuTYrv_1CMHxhhmrJCsJtKPrqh6fJWfsUA",
+   "category": "stratfin",
+   "metro": "nyc",
+   "first_seen": "2026-11-07T01:08:15+00:00"
+  },
+  {
+   "id": "4470065940",
+   "title": "Strategic Finance, Ads",
+   "company": "OpenAI",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-06",
+   "posted_label": "11 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-ads-at-openai-4470065940",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHpzXbqSyR74A/company-logo_100_100/B56ZT8EYB8HsAQ-/0/1739395793272/openai_logo?e=2147483647&v=beta&t=UE3RX4g5jO0WzxZIir4Dit4rZrlzHfCq5pFmYGHSLTU",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-07T01:08:04+00:00"
+  },
+  {
+   "id": "4486286525",
+   "title": "Senior Director, Corporate Development",
+   "company": "Oscar Health",
+   "location": "New York, NY",
+   "posted": "2026-11-06",
+   "posted_label": "2 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-director-corporate-development-at-oscar-health-4486286525",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEme_7Xrp9Wyw/company-logo_100_100/B4DaCqDs2MIcAQ-/0/1789559492196/oscar_health_logo?e=2147483647&v=beta&t=FpgI0XL5LWuTYrv_1CMHxhhmrJCsJtKPrqh6fJWfsUA",
+   "category": "corpdev",
+   "metro": "nyc",
+   "first_seen": "2026-11-07T01:07:59+00:00"
+  },
+  {
+   "id": "4461929136",
+   "title": "Manager, Corporate Development (M&A Integration)",
+   "company": "Adobe",
+   "location": "San Jose, CA",
+   "posted": "2026-11-06",
+   "posted_label": "15 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/manager-corporate-development-m-a-integration-at-adobe-4461929136",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_100_100/B56ZodIp56HUAU-/0/1761425400481?e=2147483647&v=beta&t=5quwQkjoWPHt-cdv-cBmTVHls2M4cf6o-rcrCVz1-tE",
+   "category": "corpdev",
+   "metro": "sf",
+   "first_seen": "2026-11-07T01:07:49+00:00"
+  },
+  {
    "id": "4488191778",
    "title": "Senior Associate, Strategic Finance",
    "company": "Tenex",
@@ -843,8 +895,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-06T21:27:50+00:00",
- "next_run": "2026-11-06T21:57:01+00:00",
+ "last_run": "2026-11-07T01:08:36+00:00",
+ "next_run": "2026-11-07T01:37:49+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
