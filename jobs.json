@@ -1,6 +1,45 @@
 {
  "jobs": [
   {
+   "id": "4479389586",
+   "title": "Senior Manager, Strategy & Corporate Development",
+   "company": "TodayTix Group (TTG)",
+   "location": "New York, NY",
+   "posted": "2026-11-07",
+   "posted_label": "16 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-manager-strategy-corporate-development-at-todaytix-group-ttg-4479389586",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEhodWenOAFJA/company-logo_100_100/company-logo_100_100/0/1630640184787?e=2147483647&v=beta&t=G0EVHWfKgddyfeyYvjNH3mea4_qh1k4duWeGAYCt3GU",
+   "category": "corpdev",
+   "metro": "nyc",
+   "first_seen": "2026-11-08T09:27:03+00:00"
+  },
+  {
+   "id": "4486673062",
+   "title": "Head of Corporate Development and IR",
+   "company": "Nominal",
+   "location": "New York, NY",
+   "posted": "2026-11-07",
+   "posted_label": "10 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/head-of-corporate-development-and-ir-at-nominal-4486673062",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQH1fwgAfS-agQ/company-logo_100_100/B56Zm_7NK.I0AQ-/0/1759861593148/nominal_inc_logo?e=2147483647&v=beta&t=bT4fH-gsZ05mILLX28HqByndwIk86UK80GBLahMekEA",
+   "category": "corpdev",
+   "metro": "nyc",
+   "first_seen": "2026-11-08T09:27:03+00:00"
+  },
+  {
+   "id": "4429109084",
+   "title": "Executive Director, Corporate Development & M&A Strategies",
+   "company": "Trustmark",
+   "location": "Greater Chicago Area",
+   "posted": "2026-11-07",
+   "posted_label": "16 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/executive-director-corporate-development-m-a-strategies-at-trustmark-4429109084",
+   "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQF4SPnlyS6wrQ/company-logo_100_100/company-logo_100_100/0/1631357679401/trustmark_insurance_logo?e=2147483647&v=beta&t=rjsRX-oVyT97N4lQjU_2wjv98V0PYS-fFnXIyY13-3M",
+   "category": "corpdev",
+   "metro": "chi",
+   "first_seen": "2026-11-08T09:26:59+00:00"
+  },
+  {
    "id": "4486262125",
    "title": "Private Credit Investment Associate",
    "company": "Long Ridge Partners",
@@ -1038,8 +1077,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-07T14:52:27+00:00",
- "next_run": "2026-11-07T15:21:08+00:00",
+ "last_run": "2026-11-08T09:30:06+00:00",
+ "next_run": "2026-11-08T09:55:23+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
