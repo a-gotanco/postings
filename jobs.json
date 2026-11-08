@@ -1,6 +1,32 @@
 {
  "jobs": [
   {
+   "id": "4443453194",
+   "title": "Specialist - Strategic Finance & Analysis (Wealth Management)",
+   "company": "Northern Trust",
+   "location": "Chicago, IL",
+   "posted": "2026-11-08",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/specialist-strategic-finance-analysis-wealth-management-at-northern-trust-4443453194",
+   "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEhKPm5QIrRAQ/company-logo_100_100/company-logo_100_100/0/1663663012961/northern_trust_logo?e=2147483647&v=beta&t=u1yTjh_wPLHOaJEvxaO4qc0XCGWWsSxAx4KP3m8rjwk",
+   "category": "stratfin",
+   "metro": "chi",
+   "first_seen": "2026-11-08T20:44:23+00:00"
+  },
+  {
+   "id": "4453388725",
+   "title": "Expert Opportunity - Corporate Development Principal ($100/hr, up to $2,000/week)",
+   "company": "Ethos",
+   "location": "San Francisco Bay Area",
+   "posted": "2026-11-08",
+   "posted_label": "9 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/expert-opportunity-corporate-development-principal-%24100-hr-up-to-%242-000-week-at-ethos-4453388725",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFFxWR4Jz62og/company-logo_100_100/B4DaAFsmw2KQAI-/0/1786801974560/askethos_logo?e=2147483647&v=beta&t=v_iO77l0tD9pa2jyDyAbsw-aY9n5mUVcLF3BqmY1n0c",
+   "category": "corpdev",
+   "metro": "sf",
+   "first_seen": "2026-11-08T20:44:04+00:00"
+  },
+  {
    "id": "4443963059",
    "title": "GTM Strategic Finance",
    "company": "Plaid",
@@ -1181,8 +1207,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-08T16:15:46+00:00",
- "next_run": "2026-11-08T16:45:02+00:00",
+ "last_run": "2026-11-08T20:44:47+00:00",
+ "next_run": "2026-11-08T21:14:02+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
