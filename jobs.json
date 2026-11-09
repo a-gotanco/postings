@@ -1,6 +1,71 @@
 {
  "jobs": [
   {
+   "id": "4489118319",
+   "title": "Investment Associate - Infrastructure Debt",
+   "company": "Madison Hunt",
+   "location": "New York, NY",
+   "posted": "2026-11-09",
+   "posted_label": "26 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/investment-associate-infrastructure-debt-at-madison-hunt-4489118319",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEpRG33bLYniQ/company-logo_100_100/B4EZ7XiXMfHoAI-/0/1781732570211/madison_hunt_logo?e=2147483647&v=beta&t=yg73PMdA0ABQre4ZuY0CfKeBGKI8VdKbLUyI7UI1ZX8",
+   "category": "invassoc",
+   "metro": "nyc",
+   "first_seen": "2026-11-09T18:41:31+00:00"
+  },
+  {
+   "id": "4488860974",
+   "title": "Investment Associate",
+   "company": "Partners Capital",
+   "location": "New York, NY",
+   "posted": "2026-11-09",
+   "posted_label": "4 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/investment-associate-at-partners-capital-4488860974",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH8MDn7HjmHvA/company-logo_100_100/B4EZX4DY9xH0AU-/0/1743623393822/partners_capital_llp_logo?e=2147483647&v=beta&t=YnlWFajQIDkXw-Dt659nUY0w1LhkhLhoLQJZ16AlzVU",
+   "category": "invassoc",
+   "metro": "nyc",
+   "first_seen": "2026-11-09T18:41:31+00:00"
+  },
+  {
+   "id": "4478215670",
+   "title": "Senior Investment Associate",
+   "company": "Bessemer Trust",
+   "location": "New York, NY",
+   "posted": "2026-11-09",
+   "posted_label": "7 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-investment-associate-at-bessemer-trust-4478215670",
+   "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHDhd7T1oldQg/company-logo_100_100/company-logo_100_100/0/1630596441662/bessemer_trust_logo?e=2147483647&v=beta&t=are93ceqVPrGrPg5jmB2fL_3SFCLkHhwvwIrOiZg7mU",
+   "category": "invassoc",
+   "metro": "nyc",
+   "first_seen": "2026-11-09T18:41:31+00:00"
+  },
+  {
+   "id": "4487934201",
+   "title": "Strategic Finance Lead",
+   "company": "Traba",
+   "location": "New York, NY",
+   "posted": "2026-11-09",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-lead-at-traba-4487934201",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQH0Z3XK7A43RQ/company-logo_100_100/company-logo_100_100/0/1720713478716/traba_work_logo?e=2147483647&v=beta&t=SilhIveqoIP_V6O9XlHmncZIpwLdcZ5uUgzSTqaO8kE",
+   "category": "stratfin",
+   "metro": "nyc",
+   "first_seen": "2026-11-09T18:41:18+00:00"
+  },
+  {
+   "id": "4489133097",
+   "title": "Strategic Finance & Biz Ops Lead",
+   "company": "Sage Care",
+   "location": "Palo Alto, CA",
+   "posted": "2026-11-09",
+   "posted_label": "7 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-biz-ops-lead-at-sage-care-4489133097",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGHki-t09L7vg/company-logo_100_100/company-logo_100_100/0/1714598494086/sage_care_company_logo?e=2147483647&v=beta&t=H2k0x7dtKW57ULvjoKkDpkd4NhNX7U29qCeD0CILipQ",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-09T18:41:06+00:00"
+  },
+  {
    "id": "4488818854",
    "title": "Head of Corporate Development & Business Development",
    "company": "BioSpace",
@@ -1220,8 +1285,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-09T07:52:48+00:00",
- "next_run": "2026-11-09T08:21:36+00:00",
+ "last_run": "2026-11-09T18:41:35+00:00",
+ "next_run": "2026-11-09T19:10:50+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
