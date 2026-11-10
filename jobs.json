@@ -1,6 +1,45 @@
 {
  "jobs": [
   {
+   "id": "4487997468",
+   "title": "Senior Director - AI Labs Strategic Finance",
+   "company": "Salesforce",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-10",
+   "posted_label": "5 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-director-ai-labs-strategic-finance-at-salesforce-4487997468",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_100_100/B56Z3aploQGoAQ-/0/1777489828808/salesforce_logo?e=2147483647&v=beta&t=1MZrzAAgAUVXxVH-02aUbLGyPi8hi7M6_NgqTtjGfmQ",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-10T09:42:15+00:00"
+  },
+  {
+   "id": "4489405862",
+   "title": "Executive Director, Corporate Development Cobrand & Network Partnerships",
+   "company": "JPMorganChase",
+   "location": "New York, NY",
+   "posted": "2026-11-10",
+   "posted_label": "4 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/executive-director-corporate-development-cobrand-network-partnerships-at-jpmorganchase-4489405862",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=2147483647&v=beta&t=kP6Xf9uye25nDGkk4RmP87zYyfNqaQWny7e5o3WyKhI",
+   "category": "corpdev",
+   "metro": "nyc",
+   "first_seen": "2026-11-10T09:42:10+00:00"
+  },
+  {
+   "id": "4481540984",
+   "title": "Markets Strategic Investments & Corporate Development - Associate",
+   "company": "JPMorganChase",
+   "location": "New York, NY",
+   "posted": "2026-11-10",
+   "posted_label": "8 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/markets-strategic-investments-corporate-development-associate-at-jpmorganchase-4481540984",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=2147483647&v=beta&t=kP6Xf9uye25nDGkk4RmP87zYyfNqaQWny7e5o3WyKhI",
+   "category": "corpdev",
+   "metro": "nyc",
+   "first_seen": "2026-11-10T09:42:10+00:00"
+  },
+  {
    "id": "4489193017",
    "title": "Infrastructure Investment Associate \u2013 Leveraged Finance/Project Finance/M&A Advisory",
    "company": "Deutsche Bank",
@@ -1376,9 +1415,9 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-10T01:59:56+00:00",
- "next_run": "2026-11-10T02:29:05+00:00",
+ "last_run": "2026-11-10T09:42:48+00:00",
+ "next_run": "2026-11-10T10:08:32+00:00",
  "status": "live",
- "error": null,
+ "error": "Corporate Development / Chicago: HTTP Error 429: Too Many Requests",
  "poll_minutes": 30
 }
