@@ -1,6 +1,45 @@
 {
  "jobs": [
   {
+   "id": "4488252385",
+   "title": "Private Credit Investment Associate",
+   "company": "Long Ridge Partners",
+   "location": "New York, NY",
+   "posted": "2026-11-11",
+   "posted_label": "5 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/private-credit-investment-associate-at-long-ridge-partners-4488252385",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFmq2B0T1WBvg/company-logo_100_100/B4EZaDHtCqHYAQ-/0/1745956557278/long_ridge_partners_logo?e=2147483647&v=beta&t=bK-ajYJDml4-ct543au9tWVc09zp4ZMNkPj43379wyA",
+   "category": "invassoc",
+   "metro": "nyc",
+   "first_seen": "2026-11-12T00:59:22+00:00"
+  },
+  {
+   "id": "4473047587",
+   "title": "Senior Strategic Finance Associate, G&A",
+   "company": "Mixpanel",
+   "location": "New York, NY",
+   "posted": "2026-11-11",
+   "posted_label": "7 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-strategic-finance-associate-g-a-at-mixpanel-4473047587",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGbG4HgYRsX1w/company-logo_100_100/B56Z.F.vDaH4AE-/0/1784659243485/mixpanel_inc__logo?e=2147483647&v=beta&t=OpOSvc586xSdZWGFtyHxb14g5jawBOMn6X-GT6h9RTM",
+   "category": "stratfin",
+   "metro": "nyc",
+   "first_seen": "2026-11-12T00:59:06+00:00"
+  },
+  {
+   "id": "4454414436",
+   "title": "Strategic Finance Senior Associate - Compute",
+   "company": "Together AI",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-11",
+   "posted_label": "13 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-senior-associate-compute-at-together-ai-4454414436",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH6pmXpVBbBXw/company-logo_100_100/B4EaAdAXiPIoAM-/0/1787193031111/togethercomputer_logo?e=2147483647&v=beta&t=qTOsMHCJkLOTgY_BuyKvzFYRT5PM7iIIEi7JRcK1PBo",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-12T00:58:55+00:00"
+  },
+  {
    "id": "4468842400",
    "title": "Credit and Capital Solutions, Investment Associate",
    "company": "Galvanize",
@@ -1909,8 +1948,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-11T18:37:03+00:00",
- "next_run": "2026-11-11T19:06:15+00:00",
+ "last_run": "2026-11-12T00:59:28+00:00",
+ "next_run": "2026-11-12T01:28:40+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
