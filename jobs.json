@@ -1948,8 +1948,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-12T00:59:28+00:00",
- "next_run": "2026-11-12T01:28:40+00:00",
+ "last_run": "2026-11-12T08:14:30+00:00",
+ "next_run": "2026-11-12T08:41:12+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
