@@ -1,6 +1,45 @@
 {
  "jobs": [
   {
+   "id": "4489503465",
+   "title": "Investment Associate",
+   "company": "Cerity Partners",
+   "location": "Chicago, IL",
+   "posted": "2026-11-12",
+   "posted_label": "3 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/investment-associate-at-cerity-partners-4489503465",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQF8MQqSaqg8Rg/company-logo_100_100/company-logo_100_100/0/1666647934428/cerity_partners_logo?e=2147483647&v=beta&t=bfBFpB_0VZfqYZnefytL_jsuPTioeNw_JR1PdMsMmZM",
+   "category": "invassoc",
+   "metro": "chi",
+   "first_seen": "2026-11-13T03:23:52+00:00"
+  },
+  {
+   "id": "4490556476",
+   "title": "Senior Director, Corporate Development",
+   "company": "Mount Sinai Morningside",
+   "location": "New York, NY",
+   "posted": "2026-11-13",
+   "posted_label": "2 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-director-corporate-development-at-mount-sinai-morningside-4490556476",
+   "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQGhzNVtL3dhUA/company-logo_100_100/company-logo_100_100/0/1630481129572?e=2147483647&v=beta&t=wlwaUnJLdmBh-UMvB87I4ETmlw2vBPcXa6o3TA6Heho",
+   "category": "corpdev",
+   "metro": "nyc",
+   "first_seen": "2026-11-13T03:22:52+00:00"
+  },
+  {
+   "id": "4490548446",
+   "title": "Principal Finance Manager, AWS Corporate Development, AWS Corporate Development Finance",
+   "company": "Amazon Web Services (AWS)",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-13",
+   "posted_label": "2 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/principal-finance-manager-aws-corporate-development-aws-corporate-development-finance-at-amazon-web-services-aws-4490548446",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=2147483647&v=beta&t=813v--p_AS7bme1J7PlAyB2BEU4-c9ba9AUzyuGb5Wg",
+   "category": "corpdev",
+   "metro": "sf",
+   "first_seen": "2026-11-13T03:21:42+00:00"
+  },
+  {
    "id": "4489293333",
    "title": "Strategic Finance Manager",
    "company": "Quince",
@@ -2117,8 +2156,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-12T22:41:20+00:00",
- "next_run": "2026-11-12T23:10:34+00:00",
+ "last_run": "2026-11-13T03:24:02+00:00",
+ "next_run": "2026-11-13T03:51:42+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
