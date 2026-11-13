@@ -1,6 +1,71 @@
 {
  "jobs": [
   {
+   "id": "4482860047",
+   "title": "J.P. Morgan Wealth Management - Private Client Investment Associate - San Francisco, CA",
+   "company": "JPMorganChase",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-13",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/j-p-morgan-wealth-management-private-client-investment-associate-san-francisco-ca-at-jpmorganchase-4482860047",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=2147483647&v=beta&t=kP6Xf9uye25nDGkk4RmP87zYyfNqaQWny7e5o3WyKhI",
+   "category": "invassoc",
+   "metro": "sf",
+   "first_seen": "2026-11-13T11:29:00+00:00"
+  },
+  {
+   "id": "4464141158",
+   "title": "Strategic Finance Manager",
+   "company": "Pivotal Health",
+   "location": "Brooklyn, NY",
+   "posted": "2026-11-13",
+   "posted_label": "35 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-manager-at-pivotal-health-4464141158",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGQekbzcOH3cg/company-logo_100_100/B56ZvZm4sJHsAQ-/0/1768882409360/pivotal_health_ai_logo?e=2147483647&v=beta&t=kjXDAbLhHNz6RO9NLrODwSgEqNLMrpRXQMnskMCpiGs",
+   "category": "stratfin",
+   "metro": "nyc",
+   "first_seen": "2026-11-13T11:28:52+00:00"
+  },
+  {
+   "id": "4490392776",
+   "title": "Corporate Development Associate (EBC8FEF)",
+   "company": "Referment",
+   "location": "New York, NY",
+   "posted": "2026-11-12",
+   "posted_label": "16 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/corporate-development-associate-ebc8fef-at-referment-4490392776",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQF9sOag6wlNiw/company-logo_100_100/B4EZXxAC64G0AY-/0/1743505076442/referment_logo?e=2147483647&v=beta&t=yKEs9cQZ6Mr-v2mtNhRcf8PPHjUgIxnjiqnFQBjPq2k",
+   "category": "corpdev",
+   "metro": "nyc",
+   "first_seen": "2026-11-13T11:28:37+00:00"
+  },
+  {
+   "id": "4482744504",
+   "title": "Sr. Analyst, Corporate Development Finance",
+   "company": "Intuitive",
+   "location": "Sunnyvale, CA",
+   "posted": "2026-11-13",
+   "posted_label": "2 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/sr-analyst-corporate-development-finance-at-intuitive-4482744504",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQE2wfXIjiCzWA/company-logo_100_100/company-logo_100_100/0/1630649619968/intuitivesurgical_logo?e=2147483647&v=beta&t=2JGvU0JKglMWXX6_lcMHK-vhAGYlN4ojUhUNav6vyyo",
+   "category": "corpdev",
+   "metro": "sf",
+   "first_seen": "2026-11-13T11:28:26+00:00"
+  },
+  {
+   "id": "4481642800",
+   "title": "Corporate Development Operations Manager",
+   "company": "Nextpower",
+   "location": "Fremont, CA",
+   "posted": "2026-11-13",
+   "posted_label": "44 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/corporate-development-operations-manager-at-nextpower-4481642800",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQF2APFUYamUMQ/company-logo_100_100/B4EZs37njPHoAQ-/0/1766169934337?e=2147483647&v=beta&t=I83YB8OHO9y4YXoh1gFgGOK_x_bCfxsDe4CUZr3HKPs",
+   "category": "corpdev",
+   "metro": "sf",
+   "first_seen": "2026-11-13T11:28:26+00:00"
+  },
+  {
    "id": "4489503465",
    "title": "Investment Associate",
    "company": "Cerity Partners",
@@ -2156,8 +2221,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-13T03:24:02+00:00",
- "next_run": "2026-11-13T03:51:42+00:00",
+ "last_run": "2026-11-13T11:29:14+00:00",
+ "next_run": "2026-11-13T11:58:25+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
