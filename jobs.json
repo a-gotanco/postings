@@ -1,6 +1,84 @@
 {
  "jobs": [
   {
+   "id": "4489816967",
+   "title": "Manager, Strategic Finance",
+   "company": "Figma",
+   "location": "New York, NY",
+   "posted": "2026-11-13",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/manager-strategic-finance-at-figma-4489816967",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEQy5tnmaM1dw/company-logo_100_100/B4EZYk9uLFHYAU-/0/1744376882144/figma_logo?e=2147483647&v=beta&t=P0qQNJ4g9d1QmzoUrMieyS-y7GYpzmE2Rbq8d_ZgRj0",
+   "category": "stratfin",
+   "metro": "nyc",
+   "first_seen": "2026-11-14T00:17:56+00:00"
+  },
+  {
+   "id": "4488988357",
+   "title": "Strategic Finance Manager",
+   "company": "Jerry",
+   "location": "Chicago, IL",
+   "posted": "2026-11-13",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-manager-at-jerry-4488988357",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQFn2QCrOCDMwg/company-logo_100_100/company-logo_100_100/0/1630648185818/jerryinc_logo?e=2147483647&v=beta&t=av36t83Kd04m6aR-OU4KCi1lrpySrASAdTcDVKhzXsY",
+   "category": "stratfin",
+   "metro": "chi",
+   "first_seen": "2026-11-14T00:17:50+00:00"
+  },
+  {
+   "id": "4488990386",
+   "title": "Manager, Strategic Finance",
+   "company": "Jerry",
+   "location": "Chicago, IL",
+   "posted": "2026-11-13",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/manager-strategic-finance-at-jerry-4488990386",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQFn2QCrOCDMwg/company-logo_100_100/company-logo_100_100/0/1630648185818/jerryinc_logo?e=2147483647&v=beta&t=av36t83Kd04m6aR-OU4KCi1lrpySrASAdTcDVKhzXsY",
+   "category": "stratfin",
+   "metro": "chi",
+   "first_seen": "2026-11-14T00:17:50+00:00"
+  },
+  {
+   "id": "4490700960",
+   "title": "Director of Strategic Finance",
+   "company": "Oxide Computer Company",
+   "location": "Emeryville, CA",
+   "posted": "2026-11-13",
+   "posted_label": "12 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/director-of-strategic-finance-at-oxide-computer-company-4490700960",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFYjurgBqoqHA/company-logo_100_100/B4EZbuJUmSGcAQ-/0/1747752143636/oxidecomputer_logo?e=2147483647&v=beta&t=ROjynsFj7GgNbRjucoQ48CmhDgv6cvdSChAiHWqmFsI",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-14T00:17:44+00:00"
+  },
+  {
+   "id": "4489824676",
+   "title": "Manager, Strategic Finance",
+   "company": "Figma",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-13",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/manager-strategic-finance-at-figma-4489824676",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEQy5tnmaM1dw/company-logo_100_100/B4EZYk9uLFHYAU-/0/1744376882144/figma_logo?e=2147483647&v=beta&t=P0qQNJ4g9d1QmzoUrMieyS-y7GYpzmE2Rbq8d_ZgRj0",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-14T00:17:44+00:00"
+  },
+  {
+   "id": "4491025082",
+   "title": "Strategic Finance Manager",
+   "company": "AliveCor",
+   "location": "Mountain View, CA",
+   "posted": "2026-11-14",
+   "posted_label": "7 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-manager-at-alivecor-4491025082",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHT-anpszW3JQ/company-logo_100_100/company-logo_100_100/0/1736196251355/alivecor_logo?e=2147483647&v=beta&t=NpsLbJjrh3Kl3YwVl_hatXKVU-v8G9H6LC-QQUW8Uz8",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-14T00:17:44+00:00"
+  },
+  {
    "id": "4490726838",
    "title": "Investment Associate",
    "company": "Gold Search Solutions",
@@ -2351,8 +2429,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-13T18:43:13+00:00",
- "next_run": "2026-11-13T19:12:27+00:00",
+ "last_run": "2026-11-14T00:18:17+00:00",
+ "next_run": "2026-11-14T00:47:27+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
