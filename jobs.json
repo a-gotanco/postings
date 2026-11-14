@@ -1,6 +1,32 @@
 {
  "jobs": [
   {
+   "id": "4491030901",
+   "title": "Corporate Development, Digital Partnerships - Executive Director",
+   "company": "JPMorganChase",
+   "location": "New York, NY",
+   "posted": "2026-11-14",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/corporate-development-digital-partnerships-executive-director-at-jpmorganchase-4491030901",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=2147483647&v=beta&t=kP6Xf9uye25nDGkk4RmP87zYyfNqaQWny7e5o3WyKhI",
+   "category": "corpdev",
+   "metro": "nyc",
+   "first_seen": "2026-11-14T06:57:08+00:00"
+  },
+  {
+   "id": "4489313562",
+   "title": "Manager, Corporate Development & Finance",
+   "company": "Sony Interactive Entertainment",
+   "location": "San Mateo, CA",
+   "posted": "2026-11-14",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/manager-corporate-development-finance-at-sony-interactive-entertainment-4489313562",
+   "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFJO00VqEb3Vg/company-logo_100_100/company-logo_100_100/0/1630540194089/sony_interactive_entertainment_llc_logo?e=2147483647&v=beta&t=THUc2lZt3GZr46dkcVu124qOTUrk9qCSm5emMRx0sd8",
+   "category": "corpdev",
+   "metro": "sf",
+   "first_seen": "2026-11-14T06:56:57+00:00"
+  },
+  {
    "id": "4489816967",
    "title": "Manager, Strategic Finance",
    "company": "Figma",
@@ -2429,8 +2455,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-14T03:52:32+00:00",
- "next_run": "2026-11-14T04:21:45+00:00",
+ "last_run": "2026-11-14T06:57:47+00:00",
+ "next_run": "2026-11-14T07:26:57+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
