@@ -1,0 +1,39 @@
+{
+  "repo": "a-gotanco/postings",
+  "titles": [
+    {
+      "id": "corpdev",
+      "name": "Corporate Development",
+      "also_match": [
+        "corp dev",
+        "corp development",
+        "corpdev"
+      ]
+    },
+    {
+      "id": "stratfin",
+      "name": "Strategic Finance"
+    },
+    {
+      "id": "invassoc",
+      "name": "Investment Associate"
+    }
+  ],
+  "locations": [
+    {
+      "id": "sf",
+      "name": "San Francisco",
+      "search": "San Francisco Bay Area"
+    },
+    {
+      "id": "chi",
+      "name": "Chicago",
+      "search": "Greater Chicago Area"
+    },
+    {
+      "id": "nyc",
+      "name": "New York",
+      "search": "New York City Metropolitan Area"
+    }
+  ]
+}

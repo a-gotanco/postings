@@ -2,9 +2,9 @@
 """
 Posting — a live log of new LinkedIn job postings.
 
-Polls LinkedIn's public (logged-out) job search every 15 minutes for three
-role categories in three metros, keeps a running log in jobs.json, and serves
-a dashboard at http://localhost:8787.
+Polls LinkedIn's public (logged-out) job search for the job titles and
+locations listed in config.json (editable from the website's Settings panel),
+keeps a running log in jobs.json, and serves a dashboard at http://localhost:8787.
 
 No login, no API keys, no installs: Python 3 standard library only.
 
@@ -36,31 +36,28 @@ PAGES_PER_QUERY = 2          # 25 results per page
 LOOKBACK = "r86400"          # only postings from the past 24h ("r3600" = past hour)
 KEEP_DAYS = 30               # drop jobs from the log after this many days
 
-# category id -> (display name, LinkedIn search keywords, title must match this regex)
-CATEGORIES = {
-    "corpdev": ("Corporate Development", '"corporate development"',
-                r"corporate\s+development|corp\.?\s*dev"),
-    "stratfin": ("Strategic Finance", '"strategic finance"',
-                 r"strategic\s+finance"),
-    "invassoc": ("Investment Associate", '"investment associate"',
-                 r"investment\s+associate"),
-}
-
-# metro id -> (display name, LinkedIn location string)
-METROS = {
-    "sf": ("San Francisco", "San Francisco Bay Area"),
-    "chi": ("Chicago", "Greater Chicago Area"),
-    "nyc": ("New York", "New York City Metropolitan Area"),
-}
-
 # ----------------------------------------------------------------------------
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(HERE, "jobs.json")
+CONFIG_FILE = os.path.join(HERE, "config.json")
 INDEX_FILE = os.path.join(HERE, "index.html")
 SEARCH_URL = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
+
+DEFAULT_CONFIG = {
+    "titles": [
+        {"id": "corpdev", "name": "Corporate Development", "also_match": ["corp dev", "corp development", "corpdev"]},
+        {"id": "stratfin", "name": "Strategic Finance"},
+        {"id": "invassoc", "name": "Investment Associate"},
+    ],
+    "locations": [
+        {"id": "sf", "name": "San Francisco", "search": "San Francisco Bay Area"},
+        {"id": "chi", "name": "Chicago", "search": "Greater Chicago Area"},
+        {"id": "nyc", "name": "New York", "search": "New York City Metropolitan Area"},
+    ],
+}
 
 lock = threading.Lock()
 state = {"jobs": {}, "last_run": None, "next_run": None, "status": "starting", "error": None}
@@ -72,6 +69,35 @@ def now_iso():
 
 def log(msg):
     print(f"[{datetime.now():%H:%M:%S}] {msg}", flush=True)
+
+
+# ---------------------------------------------------------------- config -----
+
+def load_config():
+    """Read config.json (re-read every check, so edits apply on the next run)."""
+    try:
+        with open(CONFIG_FILE) as f:
+            cfg = json.load(f)
+    except (OSError, ValueError):
+        cfg = {}
+    titles = [t for t in cfg.get("titles", []) if isinstance(t, dict) and t.get("id") and t.get("name", "").strip()]
+    locs = [l for l in cfg.get("locations", []) if isinstance(l, dict) and l.get("id") and l.get("name", "").strip()]
+    return {"titles": titles or DEFAULT_CONFIG["titles"], "locations": locs or DEFAULT_CONFIG["locations"]}
+
+
+def title_pattern(t):
+    """A job's title must contain the title phrase (punctuation between words is fine) or an also_match phrase."""
+    phrases = [t["name"]] + list(t.get("also_match") or [])
+    parts = []
+    for ph in phrases:
+        words = re.findall(r"[\w&+]+", ph.lower())
+        if words:
+            parts.append(r"\b" + r"\W+".join(map(re.escape, words)) + r"\b")
+    return re.compile("|".join(parts) or r"$^", re.I)
+
+
+def is_remote(loc):
+    return loc.get("search", loc["name"]).strip().lower() in ("remote", "remote, us", "remote us")
 
 
 # ---------------------------------------------------------------- storage ----
@@ -87,10 +113,11 @@ def load():
 
 
 def payload():
+    cfg = load_config()
     return {
         "jobs": sorted(state["jobs"].values(), key=lambda j: j["first_seen"], reverse=True),
-        "categories": {k: v[0] for k, v in CATEGORIES.items()},
-        "metros": {k: v[0] for k, v in METROS.items()},
+        "categories": {t["id"]: t["name"] for t in cfg["titles"]},
+        "metros": {l["id"]: l["name"] for l in cfg["locations"]},
         "last_run": state["last_run"], "next_run": state["next_run"],
         "status": state["status"], "error": state["error"],
         "poll_minutes": POLL_MINUTES,
@@ -147,11 +174,12 @@ def parse_cards(page_html):
     return out
 
 
-def fetch(keywords, location, start):
-    qs = urllib.parse.urlencode({
-        "keywords": keywords, "location": location, "f_TPR": LOOKBACK,
-        "sortBy": "DD", "start": start,
-    })
+def fetch(keywords, location, start, remote=False):
+    params = {"keywords": keywords, "location": location, "f_TPR": LOOKBACK,
+              "sortBy": "DD", "start": start}
+    if remote:
+        params["f_WT"] = "2"         # LinkedIn's "Remote" workplace filter
+    qs = urllib.parse.urlencode(params)
     req = urllib.request.Request(f"{SEARCH_URL}?{qs}", headers={
         "User-Agent": UA, "Accept": "text/html", "Accept-Language": "en-US,en;q=0.9"})
     for attempt in range(3):
@@ -178,13 +206,21 @@ def fetch(keywords, location, start):
 def run_once():
     with lock:
         state["status"] = "checking"
+    cfg = load_config()
     added, errors = 0, []
-    for cat_id, (cat_name, keywords, title_re) in CATEGORIES.items():
-        pattern = re.compile(title_re, re.I)
-        for metro_id, (metro_name, loc) in METROS.items():
-            for page in range(PAGES_PER_QUERY):
+    searches = len(cfg["titles"]) * len(cfg["locations"])
+    pages = PAGES_PER_QUERY if searches <= 20 else 1      # keep big configs inside the time limit
+    for t in cfg["titles"]:
+        cat_id, cat_name = t["id"], t["name"].strip()
+        keywords = f'"{cat_name}"'
+        pattern = title_pattern(t)
+        for l in cfg["locations"]:
+            metro_id, metro_name = l["id"], l["name"].strip()
+            remote = is_remote(l)
+            loc = "United States" if remote else (l.get("search") or metro_name).strip()
+            for page in range(pages):
                 try:
-                    cards = parse_cards(fetch(keywords, loc, page * 25))
+                    cards = parse_cards(fetch(keywords, loc, page * 25, remote))
                 except Exception as e:  # keep going on other queries
                     errors.append(f"{cat_name} / {metro_name}: {e}")
                     break
@@ -207,7 +243,7 @@ def run_once():
         state["error"] = "; ".join(errors[:3]) if errors else None
         save()
     log(f"check done: {added} new, {len(state['jobs'])} total" + (f" ({len(errors)} errors)" if errors else ""))
-    return len(errors) < len(CATEGORIES) * len(METROS)   # True if at least one search worked
+    return len(errors) < searches   # True if at least one search worked
 
 
 def scraper_loop():
@@ -246,6 +282,8 @@ class Handler(BaseHTTPRequestHandler):
             with lock:
                 body = json.dumps(payload()).encode()
             self.send(200, body, "application/json")
+        elif path == "/config.json":
+            self.send(200, json.dumps(load_config()).encode(), "application/json")
         else:
             self.send(404, b"not found", "text/plain")
 

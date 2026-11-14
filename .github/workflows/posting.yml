@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "7,37 * * * *"   # every 30 min, off the top of the hour (GitHub often runs scheduled jobs a few minutes late)
   workflow_dispatch:          # lets you hit "Run workflow" by hand
+  push:
+    branches: [main]
+    paths: [config.json]      # run right away when searches are edited on the site
 
 permissions:
   contents: write
@@ -15,7 +18,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
