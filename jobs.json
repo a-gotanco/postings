@@ -1,6 +1,19 @@
 {
  "jobs": [
   {
+   "id": "4457065449",
+   "title": "Global Banking - Corporate Development and Partnerships - Vice President",
+   "company": "JPMorganChase",
+   "location": "New York, NY",
+   "posted": "2026-11-15",
+   "posted_label": "26 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/global-banking-corporate-development-and-partnerships-vice-president-at-jpmorganchase-4457065449",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=2147483647&v=beta&t=kP6Xf9uye25nDGkk4RmP87zYyfNqaQWny7e5o3WyKhI",
+   "category": "corpdev",
+   "metro": "nyc",
+   "first_seen": "2026-11-15T09:50:00+00:00"
+  },
+  {
    "id": "4489335227",
    "title": "Senior Investment Associate",
    "company": "Bessemer Trust",
@@ -2728,8 +2741,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-15T02:32:54+00:00",
- "next_run": "2026-11-15T03:02:08+00:00",
+ "last_run": "2026-11-15T09:50:37+00:00",
+ "next_run": "2026-11-15T10:19:51+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
