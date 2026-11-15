@@ -1,6 +1,19 @@
 {
  "jobs": [
   {
+   "id": "4457010829",
+   "title": "Strategic Finance Manager, Manufacturing",
+   "company": "Zipline",
+   "location": "South San Francisco, CA",
+   "posted": "2026-11-15",
+   "posted_label": "6 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-manager-manufacturing-at-zipline-4457010829",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEzo2uWrtamPw/company-logo_100_100/B56Z27e3t7KwAQ-/0/1776966925456/flyzipline_logo?e=2147483647&v=beta&t=mjrlcucjXTZAdMkZ-V59stau8IxUIvR-4U5BDvI6Dlw",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-15T21:40:17+00:00"
+  },
+  {
    "id": "4489382513",
    "title": "Senior Investment Associate",
    "company": "Bessemer Trust",
@@ -2832,8 +2845,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-15T16:59:09+00:00",
- "next_run": "2026-11-15T17:28:27+00:00",
+ "last_run": "2026-11-15T21:40:44+00:00",
+ "next_run": "2026-11-15T22:10:00+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
