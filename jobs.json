@@ -1,6 +1,58 @@
 {
  "jobs": [
   {
+   "id": "4489335227",
+   "title": "Senior Investment Associate",
+   "company": "Bessemer Trust",
+   "location": "New York, NY",
+   "posted": "2026-11-14",
+   "posted_label": "15 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-investment-associate-at-bessemer-trust-4489335227",
+   "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHDhd7T1oldQg/company-logo_100_100/company-logo_100_100/0/1630596441662/bessemer_trust_logo?e=2147483647&v=beta&t=are93ceqVPrGrPg5jmB2fL_3SFCLkHhwvwIrOiZg7mU",
+   "category": "invassoc",
+   "metro": "nyc",
+   "first_seen": "2026-11-15T02:32:50+00:00"
+  },
+  {
+   "id": "4491039504",
+   "title": "J.P. Morgan Wealth Management - Private Client Investment Associate - Orland Park, IL",
+   "company": "JPMorganChase",
+   "location": "Orland Park, IL",
+   "posted": "2026-11-14",
+   "posted_label": "21 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/j-p-morgan-wealth-management-private-client-investment-associate-orland-park-il-at-jpmorganchase-4491039504",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=2147483647&v=beta&t=kP6Xf9uye25nDGkk4RmP87zYyfNqaQWny7e5o3WyKhI",
+   "category": "invassoc",
+   "metro": "chi",
+   "first_seen": "2026-11-15T02:32:44+00:00"
+  },
+  {
+   "id": "4456170536",
+   "title": "J.P. Morgan Wealth Management - Private Client Investment Associate - San Francisco, CA",
+   "company": "JPMorganChase",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-14",
+   "posted_label": "16 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/j-p-morgan-wealth-management-private-client-investment-associate-san-francisco-ca-at-jpmorganchase-4456170536",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=2147483647&v=beta&t=kP6Xf9uye25nDGkk4RmP87zYyfNqaQWny7e5o3WyKhI",
+   "category": "invassoc",
+   "metro": "sf",
+   "first_seen": "2026-11-15T02:32:40+00:00"
+  },
+  {
+   "id": "4489360463",
+   "title": "Manager, Corporate Development",
+   "company": "Mastercard",
+   "location": "Purchase, NY",
+   "posted": "2026-11-14",
+   "posted_label": "2 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/manager-corporate-development-at-mastercard-4489360463",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQGOW4NIyYRRqQ/company-logo_100_100/company-logo_100_100/0/1631340300330?e=2147483647&v=beta&t=xq1ySX9pM18Xr0xQJaRgCbH1ap_xO8Yn0h21FM105Ls",
+   "category": "corpdev",
+   "metro": "nyc",
+   "first_seen": "2026-11-15T02:32:19+00:00"
+  },
+  {
    "id": "4434549986",
    "title": "Investment Associate",
    "company": "CloudHQ, LLC",
@@ -2676,8 +2728,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-14T22:56:59+00:00",
- "next_run": "2026-11-14T23:26:11+00:00",
+ "last_run": "2026-11-15T02:32:54+00:00",
+ "next_run": "2026-11-15T03:02:08+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
