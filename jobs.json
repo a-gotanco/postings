@@ -1,6 +1,32 @@
 {
  "jobs": [
   {
+   "id": "4466048755",
+   "title": "J.P. Morgan Wealth Management - Private Client Investment Associate - Oak Park, IL",
+   "company": "JPMorganChase",
+   "location": "Oak Park, IL",
+   "posted": "2026-11-16",
+   "posted_label": "Just now",
+   "url": "https://www.linkedin.com/jobs/view/j-p-morgan-wealth-management-private-client-investment-associate-oak-park-il-at-jpmorganchase-4466048755",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=2147483647&v=beta&t=kP6Xf9uye25nDGkk4RmP87zYyfNqaQWny7e5o3WyKhI",
+   "category": "invassoc",
+   "metro": "chi",
+   "first_seen": "2026-11-16T09:27:46+00:00"
+  },
+  {
+   "id": "4489853439",
+   "title": "Strategic Finance & Business Development Associate",
+   "company": "Allied Aero Aviation LLC",
+   "location": "Bridgewater, NJ",
+   "posted": "2026-11-16",
+   "posted_label": "8 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-business-development-associate-at-allied-aero-aviation-llc-4489853439",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGCHbZhfAf9zw/company-logo_100_100/B56aHX5t2mKMAI-/0/1794623594173?e=2147483647&v=beta&t=f9Xz4k581MMY8FN2i1nIn9s9BMjD25HF3pP_XACdBBs",
+   "category": "stratfin",
+   "metro": "nyc",
+   "first_seen": "2026-11-16T09:27:38+00:00"
+  },
+  {
    "id": "4457010829",
    "title": "Strategic Finance Manager, Manufacturing",
    "company": "Zipline",
@@ -2845,8 +2871,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-16T01:52:55+00:00",
- "next_run": "2026-11-16T02:22:10+00:00",
+ "last_run": "2026-11-16T09:27:55+00:00",
+ "next_run": "2026-11-16T09:57:12+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
