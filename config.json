@@ -17,6 +17,10 @@
     {
       "id": "invassoc",
       "name": "Investment Associate"
+    },
+    {
+      "id": "data-scientist",
+      "name": "Data Scientist"
     }
   ],
   "locations": [
