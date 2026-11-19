@@ -1,6 +1,97 @@
 {
  "jobs": [
   {
+   "id": "4492119920",
+   "title": "Senior Data Scientist",
+   "company": "Citizen",
+   "location": "New York, NY",
+   "posted": "2026-11-19",
+   "posted_label": "4 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-data-scientist-at-citizen-4492119920",
+   "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQGPNpmQc-2qHA/company-logo_100_100/company-logo_100_100/0/1630593519386/citizencom_logo?e=2147483647&v=beta&t=Q7JtWPTs3905Y88KeEOtj_TqtY5MuBA5hpgUTaieWjA",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-19T09:28:19+00:00"
+  },
+  {
+   "id": "4491375122",
+   "title": "Data Scientist",
+   "company": "Rose International",
+   "location": "Menlo Park, CA",
+   "posted": "2026-11-19",
+   "posted_label": "5 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/data-scientist-at-rose-international-4491375122",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQFiGd5dImBJ7Q/company-logo_100_100/B56Zkb7P8GI0AQ-/0/1757110140979/rose_international_logo?e=2147483647&v=beta&t=Ia1IwjylcRRGKoGoC_7QwfZ7R6NrClK6f5LOevSkdHU",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-19T09:28:10+00:00"
+  },
+  {
+   "id": "4491349776",
+   "title": "Data Scientist jobs in San Jose, CA (5)",
+   "company": "Fortune Jobs AI",
+   "location": "San Jose, CA",
+   "posted": "2026-11-18",
+   "posted_label": "9 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/data-scientist-jobs-in-san-jose-ca-5-at-fortune-jobs-ai-4491349776",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGFf0EdIAdCTA/company-logo_100_100/B4EaHhx_FRGoAI-/0/1794789339705?e=2147483647&v=beta&t=pNsU1zGLwvqojMk23Zu-HYS43HV8VAsmDGg5U9ZIi5c",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-19T09:28:10+00:00"
+  },
+  {
+   "id": "4492123337",
+   "title": "Affirm Bank Strategic Finance Lead",
+   "company": "Affirm",
+   "location": "New York, NY",
+   "posted": "2026-11-19",
+   "posted_label": "5 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/affirm-bank-strategic-finance-lead-at-affirm-4492123337",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEHSbORvS_jKg/company-logo_100_100/company-logo_100_100/0/1630665839795/affirm_logo?e=2147483647&v=beta&t=DTdnXfvSnUdk2QDzx2pxLSTqSBNcll6e2T8YQQGRHEk",
+   "category": "stratfin",
+   "metro": "nyc",
+   "first_seen": "2026-11-19T09:26:46+00:00"
+  },
+  {
+   "id": "4492120468",
+   "title": "Affirm Bank Strategic Finance Lead",
+   "company": "Affirm",
+   "location": "Chicago, IL",
+   "posted": "2026-11-19",
+   "posted_label": "5 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/affirm-bank-strategic-finance-lead-at-affirm-4492120468",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEHSbORvS_jKg/company-logo_100_100/company-logo_100_100/0/1630665839795/affirm_logo?e=2147483647&v=beta&t=DTdnXfvSnUdk2QDzx2pxLSTqSBNcll6e2T8YQQGRHEk",
+   "category": "stratfin",
+   "metro": "chi",
+   "first_seen": "2026-11-19T09:26:41+00:00"
+  },
+  {
+   "id": "4492122384",
+   "title": "Affirm Bank Strategic Finance Lead",
+   "company": "Affirm",
+   "location": "San Jose, CA",
+   "posted": "2026-11-19",
+   "posted_label": "5 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/affirm-bank-strategic-finance-lead-at-affirm-4492122384",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEHSbORvS_jKg/company-logo_100_100/company-logo_100_100/0/1630665839795/affirm_logo?e=2147483647&v=beta&t=DTdnXfvSnUdk2QDzx2pxLSTqSBNcll6e2T8YQQGRHEk",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-19T09:26:36+00:00"
+  },
+  {
+   "id": "4492115694",
+   "title": "Affirm Bank Strategic Finance Lead",
+   "company": "Affirm",
+   "location": "Palo Alto, CA",
+   "posted": "2026-11-19",
+   "posted_label": "5 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/affirm-bank-strategic-finance-lead-at-affirm-4492115694",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEHSbORvS_jKg/company-logo_100_100/company-logo_100_100/0/1630665839795/affirm_logo?e=2147483647&v=beta&t=DTdnXfvSnUdk2QDzx2pxLSTqSBNcll6e2T8YQQGRHEk",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-19T09:26:36+00:00"
+  },
+  {
    "id": "4491352749",
    "title": "Data Scientist jobs in New York, NY (40)",
    "company": "Fortune Jobs AI",
@@ -4848,8 +4939,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-19T01:28:40+00:00",
- "next_run": "2026-11-19T01:56:06+00:00",
+ "last_run": "2026-11-19T09:28:24+00:00",
+ "next_run": "2026-11-19T09:56:18+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
