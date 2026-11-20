@@ -1,6 +1,97 @@
 {
  "jobs": [
   {
+   "id": "4473916082",
+   "title": "Senior Data Scientist",
+   "company": "Coda Search\u2502Staffing",
+   "location": "New York, NY",
+   "posted": "2026-11-19",
+   "posted_label": "17 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-data-scientist-at-coda-search%E2%94%82staffing-4473916082",
+   "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQE-ymiCyKkIGQ/company-logo_100_100/company-logo_100_100/0/1630491130885/coda_search_logo?e=2147483647&v=beta&t=UI9AKXxHIwCbrqg8xhSPEDGer_Jy-SBxZPLweaIMOc8",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-20T08:28:36+00:00"
+  },
+  {
+   "id": "4492530476",
+   "title": "Senior Data Scientist",
+   "company": "Confido",
+   "location": "New York, NY",
+   "posted": "2026-11-20",
+   "posted_label": "7 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-data-scientist-at-confido-4492530476",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH_cCz9VXIQ0A/company-logo_100_100/B4EZiFpifXHEAQ-/0/1754588916004/confidotech_logo?e=2147483647&v=beta&t=r50BN_5Abu2lA1AjHUTQmkvldRt6rRfXYsmAVzaemLc",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-20T08:28:34+00:00"
+  },
+  {
+   "id": "4491683591",
+   "title": "Data Scientist, Growth",
+   "company": "Superhuman",
+   "location": "New York, NY",
+   "posted": "2026-11-20",
+   "posted_label": "4 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/data-scientist-growth-at-superhuman-4491683591",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQG4HcqozYIPQw/company-logo_100_100/B4DaCILX2nKoAI-/0/1788991078192/superhumanhq_logo?e=2147483647&v=beta&t=ahZoWMB3rH-cMvUOWtnEtLX5JHqHPv9gY0V_AEXdRLc",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-20T08:28:34+00:00"
+  },
+  {
+   "id": "4492542054",
+   "title": "Data Scientist",
+   "company": "Confido",
+   "location": "New York, NY",
+   "posted": "2026-11-20",
+   "posted_label": "7 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/data-scientist-at-confido-4492542054",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH_cCz9VXIQ0A/company-logo_100_100/B4EZiFpifXHEAQ-/0/1754588916004/confidotech_logo?e=2147483647&v=beta&t=r50BN_5Abu2lA1AjHUTQmkvldRt6rRfXYsmAVzaemLc",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-20T08:28:34+00:00"
+  },
+  {
+   "id": "4492553678",
+   "title": "Staff Product Data Scientist, Workspace Monetization",
+   "company": "Google",
+   "location": "Sunnyvale, CA",
+   "posted": "2026-11-20",
+   "posted_label": "33 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/staff-product-data-scientist-workspace-monetization-at-google-4492553678",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=2147483647&v=beta&t=zYekdwB_mnXarr4wa4kw8w3Jikm8YaakM5aiDyAyvP0",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-20T08:27:52+00:00"
+  },
+  {
+   "id": "4491677843",
+   "title": "Data Scientist, Growth",
+   "company": "Superhuman",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-20",
+   "posted_label": "4 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/data-scientist-growth-at-superhuman-4491677843",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQG4HcqozYIPQw/company-logo_100_100/B4DaCILX2nKoAI-/0/1788991078192/superhumanhq_logo?e=2147483647&v=beta&t=ahZoWMB3rH-cMvUOWtnEtLX5JHqHPv9gY0V_AEXdRLc",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-20T08:27:52+00:00"
+  },
+  {
+   "id": "4492546038",
+   "title": "Senior Strategic Finance Manager",
+   "company": "Wing",
+   "location": "Palo Alto, CA",
+   "posted": "2026-11-20",
+   "posted_label": "6 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-strategic-finance-manager-at-wing-4492546038",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEKoBPGuy9a4w/company-logo_100_100/B4DZU5FZhTHkAc-/0/1740419471725/wing_logo?e=2147483647&v=beta&t=DU2vWOirC542YSPWBGYVChV7GWRQyfEmqXidpfTrzWs",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-20T08:25:55+00:00"
+  },
+  {
    "id": "4492187972",
    "title": "Founding Public Policy Data Scientist",
    "company": "hussh \ud83e\udd2b",
@@ -5472,9 +5563,9 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-20T01:00:54+00:00",
- "next_run": "2026-11-20T01:24:23+00:00",
+ "last_run": "2026-11-20T08:28:38+00:00",
+ "next_run": "2026-11-20T08:53:40+00:00",
  "status": "live",
- "error": "Corporate Development / New York: HTTP Error 429: Too Many Requests",
+ "error": "Corporate Development / San Francisco: HTTP Error 429: Too Many Requests; Investment Associate / New York: HTTP Error 429: Too Many Requests",
  "poll_minutes": 30
 }
