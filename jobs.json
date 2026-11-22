@@ -1,6 +1,110 @@
 {
  "jobs": [
   {
+   "id": "4468855493",
+   "title": "Staff / Principal Product Data Scientist - Slack",
+   "company": "Salesforce",
+   "location": "New York, NY",
+   "posted": "2026-11-21",
+   "posted_label": "14 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/staff-principal-product-data-scientist-slack-at-salesforce-4468855493",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_100_100/B56Z3aploQGoAQ-/0/1777489828808/salesforce_logo?e=2147483647&v=beta&t=1MZrzAAgAUVXxVH-02aUbLGyPi8hi7M6_NgqTtjGfmQ",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-22T00:16:07+00:00"
+  },
+  {
+   "id": "4478038187",
+   "title": "Supply Chain Optimization Data Scientist Manager",
+   "company": "Deloitte",
+   "location": "Chicago, IL",
+   "posted": "2026-11-21",
+   "posted_label": "14 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/supply-chain-optimization-data-scientist-manager-at-deloitte-4478038187",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQGNtpblgQpJoQ/company-logo_100_100/company-logo_100_100/0/1662120928214/deloitte_logo?e=2147483647&v=beta&t=OSF8M5LreT0Sf2F-JcNk6XMT0ArCuPfDmRR-knCC4HY",
+   "category": "data-scientist",
+   "metro": "chi",
+   "first_seen": "2026-11-22T00:16:02+00:00"
+  },
+  {
+   "id": "4477489686",
+   "title": "AI & GenAI Data Scientist \u2013 Senior Manager",
+   "company": "PwC",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-21",
+   "posted_label": "8 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/ai-genai-data-scientist-%E2%80%93-senior-manager-at-pwc-4477489686",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFVfAbYbmcpvA/company-logo_100_100/B4EZaB6j58H0AQ-/0/1745936334912/pwc_logo?e=2147483647&v=beta&t=stNIhYwMNfiRmzhcYIuKvLl6j-_E5sJ8JNb3x27Tv1s",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-22T00:15:58+00:00"
+  },
+  {
+   "id": "4493292605",
+   "title": "Staff Data Scientist - Product Growth",
+   "company": "Intuit",
+   "location": "Mountain View, CA",
+   "posted": "2026-11-21",
+   "posted_label": "6 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/staff-data-scientist-product-growth-at-intuit-4493292605",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFhO7AJbDCP8w/company-logo_100_100/B4EaCG6NZ_JQAI-/0/1788969801591/intuit_logo?e=2147483647&v=beta&t=f2CW1_zxrJ97H_Dhr7rp3eOZCv8S87Jtf8N3xyevDY0",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-22T00:15:57+00:00"
+  },
+  {
+   "id": "4485693685",
+   "title": "Data Scientist , Music DISCO",
+   "company": "Amazon Music",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-21",
+   "posted_label": "8 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/data-scientist-music-disco-at-amazon-music-4485693685",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHvUvljRgAiGw/company-logo_100_100/B56ZcX5mXXHoAU-/0/1748452665331/amazon_music_logo?e=2147483647&v=beta&t=0EWER73AgLbuc8xWk3oZvzgpFoR8jnFyNhzpcYqUBKI",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-22T00:15:57+00:00"
+  },
+  {
+   "id": "4466649038",
+   "title": "J.P. Morgan Wealth Management - Private Client Investment Associate - Saint Charles, IL",
+   "company": "JPMorganChase",
+   "location": "St Charles, IL",
+   "posted": "2026-11-21",
+   "posted_label": "14 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/j-p-morgan-wealth-management-private-client-investment-associate-saint-charles-il-at-jpmorganchase-4466649038",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=2147483647&v=beta&t=kP6Xf9uye25nDGkk4RmP87zYyfNqaQWny7e5o3WyKhI",
+   "category": "invassoc",
+   "metro": "chi",
+   "first_seen": "2026-11-22T00:15:48+00:00"
+  },
+  {
+   "id": "4485311786",
+   "title": "J.P. Morgan Wealth Management - Private Client Investment Associate - Winnetka, IL",
+   "company": "JPMorganChase",
+   "location": "Winnetka, IL",
+   "posted": "2026-11-21",
+   "posted_label": "14 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/j-p-morgan-wealth-management-private-client-investment-associate-winnetka-il-at-jpmorganchase-4485311786",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=2147483647&v=beta&t=kP6Xf9uye25nDGkk4RmP87zYyfNqaQWny7e5o3WyKhI",
+   "category": "invassoc",
+   "metro": "chi",
+   "first_seen": "2026-11-22T00:15:46+00:00"
+  },
+  {
+   "id": "4449934532",
+   "title": "Strategic Finance Manager, Operations",
+   "company": "Zipline",
+   "location": "South San Francisco, CA",
+   "posted": "2026-11-21",
+   "posted_label": "9 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-manager-operations-at-zipline-4449934532",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEzo2uWrtamPw/company-logo_100_100/B56Z27e3t7KwAQ-/0/1776966925456/flyzipline_logo?e=2147483647&v=beta&t=mjrlcucjXTZAdMkZ-V59stau8IxUIvR-4U5BDvI6Dlw",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-22T00:15:25+00:00"
+  },
+  {
    "id": "4468869104",
    "title": "Senior Manager, Data Scientist - Bank Customer Protection Agentic Claims",
    "company": "Capital One",
@@ -6850,9 +6954,9 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-21T20:09:53+00:00",
- "next_run": "2026-11-21T20:31:26+00:00",
+ "last_run": "2026-11-22T00:16:12+00:00",
+ "next_run": "2026-11-22T00:45:11+00:00",
  "status": "live",
- "error": "Investment Associate / San Francisco: HTTP Error 429: Too Many Requests; Investment Associate / New York: HTTP Error 429: Too Many Requests",
+ "error": null,
  "poll_minutes": 30
 }
