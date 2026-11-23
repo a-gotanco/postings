@@ -1,6 +1,58 @@
 {
  "jobs": [
   {
+   "id": "4469271265",
+   "title": "Lead Data Scientist, Core, Level 6",
+   "company": "Snap Inc.",
+   "location": "New York, NY",
+   "posted": "2026-11-22",
+   "posted_label": "16 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/lead-data-scientist-core-level-6-at-snap-inc-4469271265",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHHusXflSXnCA/company-logo_100_100/B56Zu0Fu2FG0AU-/0/1768252960458?e=2147483647&v=beta&t=uuQMkdVEcAn5VitKU4C9rDukN3kF3tHmJrVNXPV0C_w",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-23T10:41:50+00:00"
+  },
+  {
+   "id": "4492392343",
+   "title": "Data Scientist",
+   "company": "Stealth Startup",
+   "location": "San Francisco Bay Area",
+   "posted": "2026-11-23",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/data-scientist-at-stealth-startup-4492392343",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGUKsfjHB8RNQ/company-logo_100_100/company-logo_100_100/0/1735368022724/stealth_startup_51_logo?e=2147483647&v=beta&t=1i0dQhrw7PP6WXHh5KlNBZJnCIP8p9MZJyxISsOwvRs",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-23T10:41:09+00:00"
+  },
+  {
+   "id": "4432487152",
+   "title": "Staff Data Scientist, Forecasting",
+   "company": "Pinterest",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-22",
+   "posted_label": "19 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/staff-data-scientist-forecasting-at-pinterest-4432487152",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH-RjGJlRrTxw/company-logo_100_100/B4EZ2cmbsqI8AQ-/0/1776448814792/pinterest_logo?e=2147483647&v=beta&t=7TySfbxbRJhvrfkI-9LNZRhXqoXUUEp2MULtNYEM96I",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-23T10:41:09+00:00"
+  },
+  {
+   "id": "4435335573",
+   "title": "Product Strategy and Corporate Development Lead, AI",
+   "company": "Datadog",
+   "location": "New York, NY",
+   "posted": "2026-11-23",
+   "posted_label": "17 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/product-strategy-and-corporate-development-lead-ai-at-datadog-4435335573",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQFLwWfI6v1OPA/company-logo_100_100/company-logo_100_100/0/1657564322231/datadog_logo?e=2147483647&v=beta&t=dlPW8v-g84slr8mZQWdDifOplkT2MTCKM0ctVSBhkdU",
+   "category": "corpdev",
+   "metro": "nyc",
+   "first_seen": "2026-11-23T10:40:05+00:00"
+  },
+  {
    "id": "4431234951",
    "title": "Principal Associate, Data Scientist - Card Intelligence",
    "company": "Capital One",
@@ -7474,8 +7526,8 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-23T01:59:37+00:00",
- "next_run": "2026-11-23T02:26:37+00:00",
+ "last_run": "2026-11-23T10:41:55+00:00",
+ "next_run": "2026-11-23T11:08:25+00:00",
  "status": "live",
  "error": null,
  "poll_minutes": 30
