@@ -1,6 +1,110 @@
 {
  "jobs": [
   {
+   "id": "4494218629",
+   "title": "(USA) Senior, Data Scientist",
+   "company": "Walmart",
+   "location": "Hoboken, NJ",
+   "posted": "2026-11-27",
+   "posted_label": "5 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/usa-senior-data-scientist-at-walmart-4494218629",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_100_100/company-logo_100_100/0/1736779000209/walmart_logo?e=2147483647&v=beta&t=tWcWIFSyHtICTzTLIPiYeKCp21XucI-HWijZdWwYR-A",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-27T23:29:09+00:00"
+  },
+  {
+   "id": "4488173800",
+   "title": "Manager, Data Scientist - Business Cards & Payments",
+   "company": "Capital One",
+   "location": "New York, NY",
+   "posted": "2026-11-27",
+   "posted_label": "4 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/manager-data-scientist-business-cards-payments-at-capital-one-4488173800",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=2147483647&v=beta&t=3vOvEagCN6Oz8iNwzA1s1AyoVUy5mbl-0M0gQjeiKvs",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-27T23:29:09+00:00"
+  },
+  {
+   "id": "4495072760",
+   "title": "Senior Data Scientist (Forward Deployed)",
+   "company": "Archer",
+   "location": "New York, NY",
+   "posted": "2026-11-27",
+   "posted_label": "16 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-data-scientist-forward-deployed-at-archer-4495072760",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQF-GCMi0fraoQ/company-logo_100_100/B4EaGbJDjgIYAI-/0/1793604205004/meet_archer_logo?e=2147483647&v=beta&t=Bacif0ksIUGES5R-WLoh0GBh7ad1NGirjFgA3yEnCIM",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-27T23:29:09+00:00"
+  },
+  {
+   "id": "4459235269",
+   "title": "Senior Data Scientist - Product",
+   "company": "Legora",
+   "location": "New York, NY",
+   "posted": "2026-11-27",
+   "posted_label": "12 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-data-scientist-product-at-legora-4459235269",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGvQoViJGxcLg/company-logo_100_100/B4DZ0ZtuEzIAAQ-/0/1774252909209/wearelegora_logo?e=2147483647&v=beta&t=tAVzHDoVyoK3CqeD58hUlXwZ58DpNWaMDxcBcgh5C4U",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-27T23:29:09+00:00"
+  },
+  {
+   "id": "4426074995",
+   "title": "Principal Associate, Data Scientist - LLM Customization Team",
+   "company": "Capital One",
+   "location": "New York, NY",
+   "posted": "2026-11-27",
+   "posted_label": "4 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/principal-associate-data-scientist-llm-customization-team-at-capital-one-4426074995",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=2147483647&v=beta&t=3vOvEagCN6Oz8iNwzA1s1AyoVUy5mbl-0M0gQjeiKvs",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-27T23:29:09+00:00"
+  },
+  {
+   "id": "4495589298",
+   "title": "Principal Data Scientist",
+   "company": "BioSpace",
+   "location": "Plainsboro, NJ",
+   "posted": "2026-11-27",
+   "posted_label": "17 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/principal-data-scientist-at-biospace-4495589298",
+   "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQGZiHXPauZl9A/company-logo_100_100/company-logo_100_100/0/1630473326310/biospaceinc_logo?e=2147483647&v=beta&t=goRNJphB-EQIv750NZtHPhKuGAWBlfqsScGl9DIPVr0",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-27T23:29:09+00:00"
+  },
+  {
+   "id": "4494222330",
+   "title": "Manager, Strategic Finance",
+   "company": "Jerry",
+   "location": "Chicago, IL",
+   "posted": "2026-11-27",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/manager-strategic-finance-at-jerry-4494222330",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQFn2QCrOCDMwg/company-logo_100_100/company-logo_100_100/0/1630648185818/jerryinc_logo?e=2147483647&v=beta&t=av36t83Kd04m6aR-OU4KCi1lrpySrASAdTcDVKhzXsY",
+   "category": "stratfin",
+   "metro": "chi",
+   "first_seen": "2026-11-27T23:25:37+00:00"
+  },
+  {
+   "id": "4494224335",
+   "title": "Strategic Finance Manager",
+   "company": "Jerry",
+   "location": "Chicago, IL",
+   "posted": "2026-11-27",
+   "posted_label": "1 hour ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-manager-at-jerry-4494224335",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQFn2QCrOCDMwg/company-logo_100_100/company-logo_100_100/0/1630648185818/jerryinc_logo?e=2147483647&v=beta&t=av36t83Kd04m6aR-OU4KCi1lrpySrASAdTcDVKhzXsY",
+   "category": "stratfin",
+   "metro": "chi",
+   "first_seen": "2026-11-27T23:25:37+00:00"
+  },
+  {
    "id": "4487782976",
    "title": "Data Scientist II",
    "company": "New York Power Authority",
@@ -10022,9 +10126,9 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-27T15:00:11+00:00",
- "next_run": "2026-11-27T15:24:39+00:00",
+ "last_run": "2026-11-27T23:30:42+00:00",
+ "next_run": "2026-11-27T23:52:25+00:00",
  "status": "live",
- "error": null,
+ "error": "Corporate Development / Chicago: HTTP Error 429: Too Many Requests; Strategic Finance / San Francisco: HTTP Error 429: Too Many Requests; Data Scientist / San Francisco: HTTP Error 429: Too Many Requests",
  "poll_minutes": 30
 }
