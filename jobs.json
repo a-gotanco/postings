@@ -1,6 +1,110 @@
 {
  "jobs": [
   {
+   "id": "4496024013",
+   "title": "Data Scientist Lead - Vice President",
+   "company": "JPMorganChase",
+   "location": "Jersey City, NJ",
+   "posted": "2026-11-28",
+   "posted_label": "11 minutes ago",
+   "url": "https://www.linkedin.com/jobs/view/data-scientist-lead-vice-president-at-jpmorganchase-4496024013",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=2147483647&v=beta&t=kP6Xf9uye25nDGkk4RmP87zYyfNqaQWny7e5o3WyKhI",
+   "category": "data-scientist",
+   "metro": "nyc",
+   "first_seen": "2026-11-28T05:05:00+00:00"
+  },
+  {
+   "id": "4471480719",
+   "title": "Principal Data Scientist - AI for Data and Assessment",
+   "company": "Capital One",
+   "location": "San Jose, CA",
+   "posted": "2026-11-27",
+   "posted_label": "10 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/principal-data-scientist-ai-for-data-and-assessment-at-capital-one-4471480719",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=2147483647&v=beta&t=3vOvEagCN6Oz8iNwzA1s1AyoVUy5mbl-0M0gQjeiKvs",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-28T05:04:48+00:00"
+  },
+  {
+   "id": "4229134421",
+   "title": "Staff Data Scientist",
+   "company": "Grindr",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-27",
+   "posted_label": "13 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/staff-data-scientist-at-grindr-4229134421",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQE5k8eoLvJFZg/company-logo_100_100/B56Z68.AkmKsAI-/0/1781286833652/grindr_logo?e=2147483647&v=beta&t=PG2l1bhBMhll1PX2aiAho6phxeolfYXt1ClcC92E4gs",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-28T05:04:48+00:00"
+  },
+  {
+   "id": "4468986940",
+   "title": "Senior Data Scientist",
+   "company": "Palo Alto Networks",
+   "location": "Santa Clara, CA",
+   "posted": "2026-11-27",
+   "posted_label": "14 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/senior-data-scientist-at-palo-alto-networks-4468986940",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQFZg72Sfni4SA/company-logo_100_100/company-logo_100_100/0/1657225156841/palo_alto_networks_logo?e=2147483647&v=beta&t=w5HNHNOQyVpcdvzfmUcHeJEtSJFrAouMjagBqwW3Itk",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-28T05:04:48+00:00"
+  },
+  {
+   "id": "4469303114",
+   "title": "Data Scientist, Product Analytics",
+   "company": "Meta",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-27",
+   "posted_label": "16 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/data-scientist-product-analytics-at-meta-4469303114",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=2147483647&v=beta&t=R4l4zr4sWKloxzoDkHHQpKC4UQe5KpjEeWR9FuX00D8",
+   "category": "data-scientist",
+   "metro": "sf",
+   "first_seen": "2026-11-28T05:04:48+00:00"
+  },
+  {
+   "id": "4493866821",
+   "title": "Head of Strategic Finance",
+   "company": "SafetyWing",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-27",
+   "posted_label": "21 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/head-of-strategic-finance-at-safetywing-4493866821",
+   "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHeJ7jA01xljA/company-logo_100_100/company-logo_100_100/0/1630571752283/safetywing_logo?e=2147483647&v=beta&t=S2lPqkWxuWiMriN1edkKbWvA_mnF_4GdZRG9Wt0yDvM",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-28T04:59:21+00:00"
+  },
+  {
+   "id": "4494216542",
+   "title": "Strategic Finance Manager",
+   "company": "Decagon",
+   "location": "San Francisco, CA",
+   "posted": "2026-11-27",
+   "posted_label": "9 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-manager-at-decagon-4494216542",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQERFjMES1gskg/company-logo_100_100/B56ZsoPQVkI0AU-/0/1765906647558/decagon_ai_logo?e=2147483647&v=beta&t=nRmBoMMZSyhJXUChGvKyM1Go9YUs0PHAzSD0IMBWDDE",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-28T04:59:21+00:00"
+  },
+  {
+   "id": "4488029030",
+   "title": "Strategic Finance Lead, Product & Engineering",
+   "company": "Plaid",
+   "location": "San Francisco Bay Area",
+   "posted": "2026-11-27",
+   "posted_label": "15 hours ago",
+   "url": "https://www.linkedin.com/jobs/view/strategic-finance-lead-product-engineering-at-plaid-4488029030",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFWIYSyhHIVHg/company-logo_100_100/B4EZ7Xzu9rIAAI-/0/1781737123943/plaid__logo?e=2147483647&v=beta&t=BxizSG_ntJrRvZuoOXA4ZJFQM8ZXi0qxWwZQBzzkToU",
+   "category": "stratfin",
+   "metro": "sf",
+   "first_seen": "2026-11-28T04:59:21+00:00"
+  },
+  {
    "id": "4494218629",
    "title": "(USA) Senior, Data Scientist",
    "company": "Walmart",
@@ -10126,9 +10230,9 @@
   "chi": "Chicago",
   "nyc": "New York"
  },
- "last_run": "2026-11-27T23:30:42+00:00",
- "next_run": "2026-11-27T23:52:25+00:00",
+ "last_run": "2026-11-28T05:05:04+00:00",
+ "next_run": "2026-11-28T05:25:35+00:00",
  "status": "live",
- "error": "Corporate Development / Chicago: HTTP Error 429: Too Many Requests; Strategic Finance / San Francisco: HTTP Error 429: Too Many Requests; Data Scientist / San Francisco: HTTP Error 429: Too Many Requests",
+ "error": "Investment Associate / San Francisco: HTTP Error 429: Too Many Requests; Investment Associate / New York: HTTP Error 429: Too Many Requests",
  "poll_minutes": 30
 }
